@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cantarell', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+}
+.navbar {
+    background: url('anastasiia-chepinska-ExakIR9uhRI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.nav-link {
+    color: black;
+    font-size: larger;
+    padding: 5px;
+}
+
+.nav-link:hover {
+    color: orangered;
+    background-color: white;
+    transition: 0.7s;
+    border-radius: 8px;
+    padding:5px;
+}
+.dark-mode{
+    background-color: black;
+  }
+.if{
+    background: url('henry-co--odUkx8C2gg-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.side{
+    background-image: url('brandi-redd-aJTiW00qqtI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.top{
+    background-image: url('william-daigneault-Cd84YdL9px8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+h1{
+    color: red;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px white;
+}
+#side1{
+    margin-top: 5px;
+}
+#side1 .nav-link{
+    color:black;
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px;
+}
+#side1 .nav{
+    margin-top: 10px;
+}
+h3{
+    margin-top: 15px;
+    color: deeppink;
+    font-weight: bold;
+    text-shadow: 3px 3px white;
+    font-size: 33px;
+}
+#head {
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    background-color:transparent;
+    border: none;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example {
+    from {
+      /* background-color: rgb(200, 179, 179); */
+    }
+
+    to {
+      /* background-color: yellow; */
+      color: brown;
+    }
+  }
+  .second{
+    margin:5px;
+  }
+  iframe{
+    margin-top: 5px;
+    height:280px;
+    background-image: url('bhumil-chheda-Se_3P6fYH5k-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .third{
+    background-image: url('wesley-tingey-Qqy1qz2MvdM-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    filter: brightness(150%);
+    filter: contrast(80%);
+  }
+  .zoom {
+    transition: transform .2s;
+    }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  .foot{
+    background: url('anastasiia-chepinska-ExakIR9uhRI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 5px;
+  }
+  #footer{
+    text-align: center;
+    color: white;
+  }
+  #topbrand{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px greenyellow;
+  }
+
